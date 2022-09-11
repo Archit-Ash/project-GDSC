@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  font-family: "Silkscreen", cursive;
+  background-image: url(wall.png);
+}
+
+img {
+  width: 30vw;
+}
+form {
+  font-size: large;
+  margin-bottom: 20px;
+}
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: large;
+  background: #4234d9;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}

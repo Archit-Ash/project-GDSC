@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="lgsi.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+
+  <body>
+    <img src="logo.svg" />
+    <h2>LOG IN</h2>
+    <form>
+      <label fir="uname">Username:</label><br />
+      <input type="text" id="uname" name="uname" /><br />
+      <label fir="pswrd">Password</label><br />
+      <input type="text" id="pswrd" name="pswrd" /><br />
+    </form>
+    <button id="myButton" class="float-left submit-button btn">LOGIN</button>
+    <script type="text/javascript">
+      document.getElementById("myButton").onclick = function () {
+        location.href = "index.html";
+      };
+    </script>
+  </body>
+</html>
